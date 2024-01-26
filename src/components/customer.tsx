@@ -64,7 +64,7 @@ const Customer: React.FC = () => {
       const deleterep = await axios.delete(
         `http://localhost:3000/api/v1/customer/delecte-by-id?id=${id}`
       );
-      // console.log(deleterep);
+      console.log(deleterep);
       getallcustomer();
     }
   };
